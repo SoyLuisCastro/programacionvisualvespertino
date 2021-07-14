@@ -1,0 +1,43 @@
+<?php
+
+/* 
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+//function<nombre de la funcion>(<parametro>){
+//  conjunto de instrucciones;
+//
+//}
+function nombre(){
+    echo "mi nombre es luis david";
+}
+function apellidos(){
+    echo "mi apellido  es  castro duque";
+}
+/*echo nombre()."<br>";
+echo nombre()."<br>";
+echo nombre()."<br>";
+echo nombre()."<br>";
+// concatenar
+echo nombre()."". apellido()."<br>";
+*/
+function nombres(){
+    $html='Nayeli castro'."<br>";
+    $html.='Ezequiel Mora<br>';
+    $html.='Luis castro<br>';
+    $html.='Lilibeth Sanchez<br>';
+    $html.='Ginger Peñafiel<br>';
+}
+// no estamos retornando y para que una funcion sea completa debería reetornar algo
+return html();
+function tablamultiplicar($numero){
+    $cadena =0;
+    $cadena .="<h1> la pabla de multiplicar del $numero <h1/>";
+    for($i = 0; $i<=10;$i++){
+      $cadena.="el resultado de ".$i." *" .$numero. "= ".$numero*$i."<br>";  
+      
+    }
+    return $cadena;
+}
+tablamultiplicar (5);
