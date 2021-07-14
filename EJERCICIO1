@@ -1,0 +1,29 @@
+<?php
+
+/* 
+ * un bucle, en programación , es una secuencia de instruciones de codigo que se ejecuta repetidas veces
+ */
+$num = $_GET['numero'];
+    echo"<h1>tabla de multiplicar del".$num." </h1>";
+    if(isset($num)){
+         $cont=0;
+          while ($cont <=10){
+        echo"el resultado de $num * $cont = ".$cont+$num. "<br>";
+        $cont++; 
+     /*for($i=0;$i<=10;$i++)
+      * secuencia de instrucciones 
+      * 
+      */  
+        echo "<br>";
+        echo"<h1> tabla de multiplkicar del ".$num." por medio del bucle for </h1>";
+          for($i=0;$i<=10;$i++){
+              echo "el resultado de $num *$i=".$i*$num."<br>";
+          }  
+    }else{
+     
+    echo "debe ingressar un numero";
+    
+    }
+    
+    
+    }
